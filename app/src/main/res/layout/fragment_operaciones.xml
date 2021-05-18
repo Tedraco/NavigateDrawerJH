@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".operacionesFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="509dp"
+        android:layout_margin="40dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtvn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingrese el  número"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/txtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Valores númericos"
+
+            android:inputType="numberDecimal"
+            android:translationY="20dp" />
+
+
+        <TextView
+            android:id="@+id/txtvn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingrese el  número"
+            android:textSize="16dp"
+            android:translationY="20dp" />
+
+        <EditText
+            android:id="@+id/txtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Valores númericos"
+            android:inputType="numberDecimal"
+            android:translationY="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:translationY="30dp">
+
+            <Button
+                android:id="@+id/btnSuma"
+                android:layout_width="102dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/teal_200"
+                android:text="Suma" />
+
+            <Button
+                android:id="@+id/btnResta"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/teal_200"
+                android:text="Resta" />
+
+            <Button
+                android:id="@+id/btnDivision"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/teal_200"
+                android:text="Division" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:translationY="30dp">
+
+            <Button
+                android:id="@+id/btnSeno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seno" />
+
+            <Button
+                android:id="@+id/btnPotencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Potencia" />
+
+            <Button
+                android:id="@+id/btnFactorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Factorial" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:translationY="30dp">
+
+            <Button
+                android:id="@+id/btnMultiplicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:text="Multiplicacion" />
+
+            <Button
+                android:id="@+id/btnCoseno"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:layout_height="wrap_content"
+                android:text="Coseno" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B12323"
+            android:text="Salir"
+            android:translationX="120dp"
+            android:translationY="70dp" />
+
+        <Button
+            android:id="@+id/btnPrincipio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B12323"
+            android:text="Principio"
+            android:translationX="120dp"
+            android:translationY="70dp" />
+
+        <Button
+            android:id="@+id/btnSlpash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B12323"
+            android:text="Slpash"
+            android:translationX="120dp"
+            android:translationY="70dp" />
+
+    </LinearLayout>
+
+</FrameLayout>
